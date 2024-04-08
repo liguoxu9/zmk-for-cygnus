@@ -156,7 +156,7 @@
 &kp AT_SIGN   &kp HASH        &kp DOLLAR     &kp PERCENT       &kp CARET      &kp AMPERSAND          &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
 &kp LS(LEFT)  &kp LS(DOWN)    &kp LS(RIGHT)  &kp LS(UP_ARROW)  &kp LS(PG_UP)  &kp DOLLAR             &kp PERCENT       &kp CARET             &kp COLON              &kp DOUBLE_QUOTES
 &kp LS(HOME)  &kp RS(DELETE)  &kp LS(END)    &kp LS(PG_DN)     &kp TILDE      &kp EXCLAMATION        &kp AT_SIGN       &kp POUND             &kp LEFT_BRACE         &kp RIGHT_BRACE
-                              &none          &kp PLUS          &kp PIPE       &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &tog 0
+                              &none          &kp PLUS          &kp PIPE       &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &none
             >;
         };
 
