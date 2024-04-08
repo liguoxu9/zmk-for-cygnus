@@ -109,7 +109,7 @@ layers:
   - '|'
   - {t: ), type: held}
   - '>'
-  - {t: default, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   funtion:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - LC(UP ARROW)
