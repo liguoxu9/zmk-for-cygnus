@@ -57,7 +57,7 @@ layers:
   - K
   - L
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Z
+  - $$mdi:alpha-w-box$$
   - X
   - C
   - V
@@ -66,7 +66,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:keyboard-space$$
