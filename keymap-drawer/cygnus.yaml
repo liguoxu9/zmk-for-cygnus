@@ -32,47 +32,10 @@ layers:
   - {t: /, h: working-macro, s: '?'}
   - {t: LC(D), h: '&m1'}
   - {t: '$$mdi:keyboard-return$$', h: mouse+media}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
+  - {t: '$$mdi:keyboard-space$$', h: num+fun}
   - {t: '$$mdi:backspace$$', h: shift}
   - {t: '$$mdi:keyboard-space$$', h: mouse+media}
   - {t: LC(D), h: '&m1'}
-  game:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   num+fun:
   - {t: '2', s: '@'}
   - '3'
@@ -106,7 +69,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '=', s: +}
-  - {t: \, s: '|'}
+  - {t: \, s: '|', type: held}
   - {t: '0', s: )}
   - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -146,7 +109,7 @@ layers:
   - '|'
   - {t: ), type: held}
   - '>'
-  - {t: game, h: toggle}
+  - {t: default, h: toggle}
   funtion:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - LC(UP ARROW)
