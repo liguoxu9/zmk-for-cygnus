@@ -56,8 +56,8 @@ layers:
   - J
   - K
   - L
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:alpha-w-box$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Z
   - X
   - C
   - V
