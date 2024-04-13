@@ -300,3 +300,5 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [10, 11]
   k: $$mdi:keyboard-tab$$
+- p: [20, 21]
+  k: {t: '$$mdi:backspace$$', type: backspace}
