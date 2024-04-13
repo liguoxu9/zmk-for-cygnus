@@ -198,10 +198,10 @@
 
         working-macro {
             bindings = <
-&none  &m5        &m6    &none  &none  &none         &m5             &m6        &none  &none
-&none  &m2        &m3    &m4    &none  &none         &m2             &m3        &m4    &none
-&none  &kp LC(D)  &m1    &none  &none  &kp UP_ARROW  &kp LC(D)       &m1        &none  &none
-                  &none  &none  &none  &kp LEFT      &kp DOWN_ARROW  &kp RIGHT
+&none  &m5        &m6    &none  &kp CAPSLOCK    &none         &m5             &m6        &none  &none
+&none  &m2        &m3    &m4    &kp KP_NUMLOCK  &none         &m2             &m3        &m4    &none
+&none  &kp LC(D)  &m1    &none  &kp SCROLLLOCK  &kp UP_ARROW  &kp LC(D)       &m1        &none  &none
+                  &none  &none  &none           &kp LEFT      &kp DOWN_ARROW  &kp RIGHT
             >;
         };
     };
