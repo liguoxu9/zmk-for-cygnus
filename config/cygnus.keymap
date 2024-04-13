@@ -32,6 +32,11 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
+
+        bk {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <20 21>;
+        };
     };
 
     behaviors {
