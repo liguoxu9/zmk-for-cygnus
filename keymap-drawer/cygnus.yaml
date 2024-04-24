@@ -108,7 +108,7 @@ layers:
   - {t: '=', s: +}
   - {t: \, s: '|'}
   - {t: '0', s: )}
-  - .
+  - KP DOT
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   shift:
   - '@'
@@ -145,7 +145,7 @@ layers:
   - +
   - '|'
   - {t: ), type: held}
-  - '>'
+  - Sft+ KP DOT
   - {t: game, h: toggle}
   funtion:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -302,3 +302,5 @@ combos:
   k: $$mdi:keyboard-tab$$
 - p: [20, 21]
   k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [26, 27]
+  k: '?'
